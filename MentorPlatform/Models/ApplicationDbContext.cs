@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace MentorPlatform.Models
+namespace HomeRent.Models
 {
     public class ApplicationDbContext : DbContext
     {

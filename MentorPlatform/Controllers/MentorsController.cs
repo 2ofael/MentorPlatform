@@ -1,15 +1,16 @@
-﻿using MentorPlatform.Models;
+﻿using HomeRent.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MentorPlatform.Controllers
+namespace HomeRent.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class MentorsController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
-        public MentorsController(ApplicationDbContext applicationDbContext) {
+        public MentorsController(ApplicationDbContext applicationDbContext)
+        {
 
             _context = applicationDbContext;
         }
@@ -54,7 +55,7 @@ namespace MentorPlatform.Controllers
         public IActionResult UpdateMentor(int id, [FromBody] Mentor mentor)
         {
 
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return BadRequest();
             }

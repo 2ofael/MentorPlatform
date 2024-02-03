@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace MentorPlatform.Controllers
+namespace HomeRent.Controllers
 {
     [ApiController]
     [Route("[controller]")]

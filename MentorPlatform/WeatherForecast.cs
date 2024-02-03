@@ -1,4 +1,4 @@
-namespace MentorPlatform
+namespace HomeRent
 {
     public class WeatherForecast
     {

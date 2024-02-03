@@ -1,4 +1,4 @@
-﻿namespace MentorPlatform.Models
+﻿namespace HomeRent.Models
 {
     public class Mentor
     {
